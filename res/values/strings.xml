@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Climbing Tracker</string>
+    <string name="app_id">675664599115176</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="mandou_um">Mandou um</string>
+    <string name="john_doe">John Doe</string>
+    <string name="com">Com</string>
+    <string name="publicar">Publicar</string>
+    <string name="na_parede">Na parede</string>
+    <string name="cp_map">Mapa da CP</string>
+    <string name="icon">Ícone</string>
+    <string name="settings">Settings</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="guiada">Guiada?</string><string-array name="graus">
+        <item>3º</item>
+        <item>4º</item>
+        <item>4ºsup</item>
+        <item>5º</item>
+        <item>5ºsup</item>
+        <item>6º</item>
+        <item>6ºsup</item>
+        <item>7a</item>
+        <item>7b</item>
+        <item>7c</item>
+        <item>8a</item>
+        <item>8b</item>
+        <item>8c</item>
+        <item>9a</item>
+        <item>9b</item>
+        <item>9c</item>
+        <item>10a</item>
+        <item>10b</item>
+    </string-array>
+    <string-array name="quedas">
+    	<item>Nenhuma queda</item>
+    	<item>1 queda</item>
+    	<item>2 quedas</item>
+    	<item>3 quedas</item>
+    	<item>4 quedas</item>
+    	<item>5 quedas</item>
+    	<item>6 quedas</item>
+    	<item>7 quedas</item>
+    	<item>8 quedas</item>
+    	<item>9 quedas</item>
+    	<item>10 quedas</item>
+    </string-array>
+    <string-array name="tops">
+    	<item>T1</item>
+    	<item>T2</item>
+    	<item>T3</item>
+    	<item>T4</item>
+    	<item>T5</item>
+    	<item>T6</item>
+    	<item>T7</item>
+    	<item>T8</item>
+    	<item>T9</item>
+    	<item>T10</item>
+    	<item>T11</item>
+    	<item>T12</item>
+    	<item>T13</item>
+    	<item>T14</item>
+    	<item>T15</item>
+    	<item>T16</item>
+    	<item>T17</item>
+    	<item>T18</item>
+    	<item>T19</item>
+    	<item>T20</item>
+    	<item>T21</item>
+    	<item>T22</item>
+    	<item>T23</item>
+    	<item>T24</item>
+    	<item>T25</item>
+    	<item>T25</item>
+    	<item>T26</item>
+    	<item>T27</item>
+    	<item>T28</item>
+    	<item>T29</item>
+    	<item>T30</item>
+    </string-array>
+    <string-array name="guiadas">
+		<item>G1</item>
+		<item>G2</item>
+		<item>G3</item>
+		<item>G4</item>
+		<item>G5</item>
+		<item>G6</item>
+		<item>G7</item>
+		<item>G8</item>
+	</string-array>
+    
+</resources>

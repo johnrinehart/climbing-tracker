@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/john_doe" />
+    
+    <TextView
+        android:id="@+id/txtMandou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/welcome"
+        android:layout_alignLeft="@+id/welcome"
+        android:layout_marginTop="12dp"
+        android:text="@string/mandou_um" />
+    
+    <Spinner
+        android:id="@+id/spnGraus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMandou"
+        android:layout_below="@+id/txtMandou"
+        android:layout_marginTop="4dp"
+        android:entries="@array/graus" />
+
+    <TextView
+        android:id="@+id/txtCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMandou"
+        android:layout_below="@+id/spnGraus"
+        android:layout_marginTop="12dp"
+        android:text="@string/com" />
+
+    <Spinner
+        android:id="@+id/spnQuedas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMandou"
+        android:layout_below="@+id/txtCom"
+        android:layout_marginTop="4dp"
+        android:entries="@array/quedas" />
+    
+    <TextView
+        android:id="@+id/txtGuiada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtParede"
+        android:layout_below="@+id/spnQuedas"
+        android:layout_marginTop="12dp"
+        android:text="@string/guiada" />
+
+    <ToggleButton
+        android:id="@+id/isGuiada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtParede"
+        android:layout_below="@+id/txtGuiada"
+        android:layout_marginTop="4dp"
+        android:text="@string/guiada"
+        android:onClick="onisGuiadaClicked" />
+
+    <TextView
+        android:id="@+id/txtParede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spnQuedas"
+        android:layout_below="@+id/isGuiada"
+        android:layout_marginTop="12dp"
+        android:text="@string/na_parede" />
+
+    <Spinner
+        android:id="@+id/spnParedes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtParede"
+        android:layout_below="@+id/txtParede"
+        android:layout_marginTop="4dp"
+        android:entries="@array/tops" />
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bntPublicar"
+        android:layout_alignTop="@+id/spnParedes"
+        android:text="@string/cp_map"
+        android:onClick= "btnMapaClicked" />
+    
+    <ImageView 
+        android:id="@+id/imgMapa"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:contentDescription="@string/cp_map" >
+	</ImageView>
+    
+    <Button
+        android:id="@+id/bntPublicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/publicar"
+        android:onClick= "PublicarClicked" />
+
+</RelativeLayout>
